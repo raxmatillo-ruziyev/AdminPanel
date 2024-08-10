@@ -1,0 +1,30 @@
+.ant-menu li:nth-child(1) {
+    position: relative;
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 12px;
+  }
+  
+  .ant-menu li:nth-child(1).ant-menu-item-selected {
+    background-color: transparent;
+    color: inherit;
+  }
+  
+  .ant-menu li:nth-child(1) img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }  
+
+  .ant-menu-title-content{
+    font-size: 16px;
+  }
+  main{
+    margin-top: 76px !important;
+  }
+  
+  .header{
+    transition: width 0.26s ease;
+    z-index: 1999;
+}
